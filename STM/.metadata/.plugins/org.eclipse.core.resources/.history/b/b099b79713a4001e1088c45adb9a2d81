@@ -1,0 +1,21 @@
+/*
+ * global.h
+ *
+ *  Created on: Dec 27, 2023
+ *      Author: DELL
+ */
+
+#ifndef INC_GLOBAL_H_
+#define INC_GLOBAL_H_
+
+#include "command_parser_fsm.h"
+#include "uart_communiation_fsm.h"
+
+# define MAX_BUFFER_SIZE 30
+
+
+
+
+
+
+#endif /* INC_GLOBAL_H_ */

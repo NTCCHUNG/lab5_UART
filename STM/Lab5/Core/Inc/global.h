@@ -1,0 +1,30 @@
+/*
+ * global.h
+ *
+ *  Created on: Dec 27, 2023
+ *      Author: DELL
+ */
+
+#ifndef INC_GLOBAL_H_
+#define INC_GLOBAL_H_
+
+#include "software_timer.h"
+#include <stdint.h>
+#include <string.h>
+#include <stdio.h>
+#include "main.h"
+#include "command_parser_fsm.h"
+#include "uart_communiation_fsm.h"
+
+# define MAX_BUFFER_SIZE 30
+
+
+
+extern uint8_t temp;
+extern uint8_t buffer [ MAX_BUFFER_SIZE ];
+extern uint8_t index_buffer;
+extern uint8_t buffer_flag;
+extern uint8_t command_flag;
+
+
+#endif /* INC_GLOBAL_H_ */

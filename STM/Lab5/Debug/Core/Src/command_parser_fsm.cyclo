@@ -1,0 +1,2 @@
+../Core/Src/command_parser_fsm.c:16:6:resetBuffer	2
+../Core/Src/command_parser_fsm.c:22:6:command_parser_fsm	10

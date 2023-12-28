@@ -1,0 +1,12 @@
+/*
+ * global.c
+ *
+ *  Created on: Dec 27, 2023
+ *      Author: DELL
+ */
+
+#include "global.h"
+
+
+uint8_t temp = 0;
+
